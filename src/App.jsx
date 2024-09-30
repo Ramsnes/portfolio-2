@@ -1,4 +1,4 @@
-import "./";
+import "./main";
 
 function App() {
   return (
