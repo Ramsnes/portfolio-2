@@ -1,3 +1,5 @@
+import "./";
+
 function App() {
   return (
     <section className="grid gap-8">
@@ -8,7 +10,7 @@ function App() {
         ></img>
       </div>
       <div>
-        <h1 className="text-4xl font-medium mt-4">Heading</h1>
+        <h1 className="text-4xl font-medium mb-4">Heading</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
           accusamus nemo qui doloremque dolorum esse eligendi eum harum rerum
