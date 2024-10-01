@@ -1,13 +1,16 @@
-import { ProjectCard } from "./components/ProjectCard";
-
+import { ProjectCard } from "../ProjectCard";
 {
-  /* Project exam 2 */
+  /* src\components\projects\ProjectExam2.jsx */
 }
-<ProjectCard
-  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTouJIbOHd1UO6jOaodxLjoyw7jBYBA6kP8P-f-bC7sqzTk0IcFiL0Pbx93qXLWa39oNLM&usqp=CAU"
-  alt="VG bilde"
-  title="Vg tittel"
-  description="VG description"
-  repo="https://github.com/Ramsnes/semester_project_2_resit"
-  deployment="https://semester-2-resit.netlify.app/"
-/>;
+export const ProjectExam2 = () => {
+  return (
+    <ProjectCard
+      image="https://www.thonhotels.no/globalassets/hoteller/norge/trondheim/trondheim-destinasjon-nidelven.jpg?mode=crop&quality=80&width=1100&height=619"
+      alt="VG bilde"
+      title="Vg tittel"
+      description="VG description"
+      repo="https://github.com/Ramsnes/semester_project_2_resit"
+      deployment="https://semester-2-resit.netlify.app/"
+    />
+  );
+};

@@ -1,13 +1,15 @@
-import { ProjectCard } from "./components/ProjectCard";
+import { ProjectCard } from "../ProjectCard";
 
-{
-  /* Semester project 2 */
-}
-<ProjectCard
-  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTouJIbOHd1UO6jOaodxLjoyw7jBYBA6kP8P-f-bC7sqzTk0IcFiL0Pbx93qXLWa39oNLM&usqp=CAU"
-  alt="VG bilde"
-  title="Vg tittel"
-  description="VG description"
-  repo="https://github.com/Ramsnes/semester_project_2_resit"
-  deployment="https://semester-2-resit.netlify.app/"
-/>;
+// src\components\projects\SemesterProject2.jsx
+export const SemesterProject2 = () => {
+  return (
+    <ProjectCard
+      image="https://static2.bigstockphoto.com/1/4/2/large1500/241100554.jpg"
+      alt="VG bilde"
+      title="Vg tittel"
+      description="VG description"
+      repo="https://github.com/Ramsnes/semester_project_2_resit"
+      deployment="https://semester-2-resit.netlify.app/"
+    />
+  );
+};
