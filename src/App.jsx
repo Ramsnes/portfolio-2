@@ -9,14 +9,14 @@ function App() {
   return (
     <main className="grid gap-8">
       {/* Introduction */}
-      <section className="grid-rows-3 md:grid-cols-3 md:text-left md:items-center">
+      <section>
         <Header />
         <Intro />
         <Skills />
       </section>
 
       {/* Projects */}
-      <section>
+      <section className="grid-rows-3 md:grid-cols-3 md:text-left md:items-center">
         <h2 className="text-2xl">Projects</h2>
         <div>
           <MappedProjects />

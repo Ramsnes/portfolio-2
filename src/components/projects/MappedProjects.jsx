@@ -1,5 +1,5 @@
 // src/components/projects/MappedProjects.jsx
-import { ProjectCard } from "../ProjectCard";
+import { ProjectCard } from "./ProjectCard";
 import { projectsData } from "./projectsData";
 
 // Job: takes in arr 'projectsData' and uses comp 'ProjectCard's' JSX outlay
