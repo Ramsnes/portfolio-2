@@ -3,9 +3,7 @@ import "./main";
 import { Header } from "./components/Header";
 import { Intro } from "./components/Intro";
 import { Skills } from "./components/Skills";
-import { JavaScriptFrameworksCA } from "./components/projects/JavaScriptFrameworksCA";
-import { ProjectExam2 } from "./components/projects/ProjectExam2";
-import { SemesterProject2 } from "./components/projects/SemesterProject2";
+import { MappedProjects } from "./components/projects/MappedProjects";
 
 function App() {
   return (
@@ -19,17 +17,15 @@ function App() {
 
       {/* Projects */}
       <section>
-        <h2>Projects</h2>
+        <h2 className="text-2xl">Projects</h2>
         <div>
-          <JavaScriptFrameworksCA />
-          <SemesterProject2 />
-          <ProjectExam2 />
+          <MappedProjects />
         </div>
       </section>
 
       {/* Footer */}
       <section>
-        <h2 className="text-2xl mt-2">Contact me</h2>
+        <h3 className="text-2xl mt-2">Contact me</h3>
       </section>
     </main>
   );
