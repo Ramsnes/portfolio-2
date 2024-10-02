@@ -1,7 +1,7 @@
 // components/Skills.jsx
 export const Skills = () => {
   return (
-    <div className="flex flex-row m-auto mx-5 w-full gap-3">
+    <div className="flex flex-row m-auto w-full gap-3">
       <div className="languages grid grid-flow-row w-1/2 grid-cols-2 gap-4 fadeInL">
         <div className="language html"></div>
         <div className="language css"></div>

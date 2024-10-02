@@ -10,7 +10,7 @@ function App() {
   return (
     <main className="grid gap-8">
       {/* Introduction */}
-      <section className="intro grid grid-rows-3 w-full gap-5 text-left ">
+      <section className="intro grid grid-rows-3 w-full gap-5 text-left">
         <Header />
         <Intro />
         <Skills />

@@ -24,7 +24,7 @@ export const ProjectCard = ({
       </div>
 
       {/* Links */}
-      <div className="flex space-x-4 justify-end mx-5">
+      <div className="flex space-x-4 justify-end">
         <a href={repo} target="_blank" rel="noopener noreferrer">
           <img src={githubLogo} alt="Github Logo" className="w-8 h-8" />
         </a>
