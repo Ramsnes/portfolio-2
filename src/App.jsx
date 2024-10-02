@@ -10,22 +10,22 @@ function App() {
   return (
     <main className="grid gap-8">
       {/* Introduction */}
-      <section>
+      <section className="intro grid grid-rows-3 w-full gap-5 text-left ">
         <Header />
         <Intro />
         <Skills />
       </section>
 
       {/* Projects */}
-      <section className="grid-rows-3 md:grid-cols-3 items-center">
-        <h2 className="text-2xl">Projects</h2>
+      <section className="projects grid-rows-3 md:grid-cols-3 items-center">
+        <h2 className="text-4xl text-center mb-5">My projects</h2>
         <div>
           <MappedProjects className="md:max-w-full" />
         </div>
       </section>
 
       {/* Footer */}
-      <section>
+      <section className="footer">
         <Footer />
       </section>
     </main>

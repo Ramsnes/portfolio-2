@@ -1,3 +1,95 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background-color: #edede4;
+}
+
+.language {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+.language:hover {
+  animation: language 2s ease-in-out;
+  transform: scale(1.5);
+}
+
+.html {
+  background-image: url(../images/html.png);
+}
+.css {
+  background-image: url(../images/css.png);
+}
+.js {
+  background-image: url(../images/js.png);
+}
+.wp {
+  background-image: url(../images/wp.png);
+}
+
+.react {
+  background-image: url(../images/react.png);
+}
+.tailwind {
+  background-image: url(../images/tw.png);
+}
+.bootstrap {
+  background-image: url(../images/bs.png);
+}
+.figma {
+  background-image: url(../images/figma.jpeg);
+}
+
+/* Fades  */
+
+/* h1 {
+  animation: fadeInFromAbove 2s ease-in-out;
+}
+
+@keyframes fadeInFromAbove {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+} */
+
+.fadeInR {
+  animation: fadeInFromRight 2s ease-in-out;
+}
+
+@keyframes fadeInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.fadeInL {
+  animation: fadeInFromLeft 2s ease-in-out;
+}
+
+@keyframes fadeInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

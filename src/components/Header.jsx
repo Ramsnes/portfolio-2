@@ -1,10 +1,9 @@
 // Header.jsx
 export const Header = () => {
   return (
-    <header>
-      <h1 className="text-4xl">My portfolio</h1>
-      <h2>My name</h2>
-      <p>Profession and inspirations</p>
+    <header className="flex flex-col m-auto mx-5">
+      <h1 className="text-4xl text-center mb-3">Morten Ramfjord</h1>
+      <h2 className="text-2xl text-center">Front end developer</h2>
     </header>
   );
 };
