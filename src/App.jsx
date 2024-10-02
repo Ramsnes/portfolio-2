@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Intro } from "./components/Intro";
 import { Skills } from "./components/Skills";
 import { MappedProjects } from "./components/projects/MappedProjects";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -16,16 +17,16 @@ function App() {
       </section>
 
       {/* Projects */}
-      <section className="grid-rows-3 md:grid-cols-3 md:text-left md:items-center">
+      <section className="grid-rows-3 md:grid-cols-3 items-center">
         <h2 className="text-2xl">Projects</h2>
         <div>
-          <MappedProjects />
+          <MappedProjects className="md:max-w-full" />
         </div>
       </section>
 
       {/* Footer */}
       <section>
-        <h3 className="text-2xl mt-2">Contact me</h3>
+        <Footer />
       </section>
     </main>
   );
