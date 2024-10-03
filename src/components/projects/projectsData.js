@@ -6,29 +6,28 @@ export const projectsData = [
     image: "../../../images/pe2.png",
     alt: "Project exam 2 screenshot",
     description:
-      "This application is as a web-based product that gives users the ability to become either a customer, or a venue manager(vm). Customers may browse and search for venues and click for more detailed description, then book the respective venue clicked, while vm's may create a venue in which other customers may book. Customers may see which venues(s) they have booked with date-details, while vm's may see which of their venues are booked in date-details. Vm's also has the ability to edit their venue(s) details.",
+      "This project focuses on building a front-end for Holidaze, a new accommodation booking site, utilizing React and Material UI to deliver a modern user experience. The application consists of both customer and admin interfaces, allowing users to view, search, and book venues, while venue managers can register, manage their listings, and access booking details. The project adheres to technical requirements, including the use of approved frameworks, and features links to project management tools, design prototypes, and hosted demos. This work highlights my development capabilities and emphasis on creating an intuitive user experience",
     repo: "https://github.com/Ramsnes/semester_project_2_resit",
     deployment: "https://semester-2-resit.netlify.app/",
   },
   {
     id: 2,
     title: "Javascript frameworks CA",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo8BG6UD3b_Fowh4gtwIjw2GPTWQQ30uBy-w&s",
+    image: "../../../images/frameworks.png",
     alt: "JS frameworks screenshot",
     description:
-      "Description Description Description Description Description Description Description Description Description Description Description Description Description Description",
-    repo: "repo link here",
-    deployment: "dep link here",
+      "eCommerce Store Application This eCommerce store, built with React and the Noroff API, features a responsive design including a homepage with all products and a search bar, a product page with detailed information and an Add to Cart button, a cart page listing items with a total amount and checkout option, a checkout success page confirming orders and clearing the cart, and a contact page with a validated contact form. The app uses React Router for navigation and state management for the shopping cart, showcasing my skills in API integration and responsive design.",
+    repo: "https://github.com/Ramsnes/frameworks-CA",
+    deployment: "https://venerable-lokum-7370ff.netlify.app/",
   },
   {
     id: 3,
     title: "Semester project 2",
-    image: "https://static2.bigstockphoto.com/1/4/2/large1500/241100554.jpg",
+    image: "../../../images/sp2.png",
     alt: "Semester project 2 screenshot",
     description:
-      "Description Description Description Description Description Description Description Description Description Description Description Description Description Description",
-    repo: "repo link",
-    deployment: "dep link",
+      "This project focuses on developing a front-end for an auction website that enables users to list items for bidding and participate in auctions. Utilizing JavaScript for functionality and SASS for styling, the application allows registered users to manage their listings and bids while permitting non-registered users to browse available items. New users begin with 1000 credits, which can be earned through selling items or used for bidding. The project complies with specified technical restrictions and includes links to essential project management tools, design prototypes, and a live demo, demonstrating my front-end development capabilities.",
+    repo: "https://github.com/Ramsnes/semester_project_2_resit",
+    deployment: "https://app.netlify.com/sites/semester-2-resit/overview",
   },
 ];

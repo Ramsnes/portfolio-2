@@ -3,7 +3,7 @@ import { skillsData } from "./skillsData";
 
 export const Skills = () => {
   return (
-    <div className="grid w-full gap-3 m-auto md:grid-cols-2 md:gap-5 border-y-2 md:py-10 border-black">
+    <div className="grid w-full gap-5 m-auto md:grid-cols-2 md:gap-5 border-y-2 py-10 border-black">
       {/* Skills */}
       <div className="languages grid grid-cols-2 gap-4 fadeInL order-2 md:order-1">
         {skillsData.map((skill) => (
