@@ -1,10 +1,10 @@
-// src/components/projects/MappedProjects.jsx
+// src/components/projects/Projects.jsx
 import { ProjectCard } from "./ProjectCard";
 import { projectsData } from "./projectsData";
 
 // Job: takes in arr 'projectsData' and uses comp 'ProjectCard's' JSX outlay
 // For each project object in the array, it creates a new ProjectCard component.
-export const MappedProjects = () => {
+export const Projects = () => {
   return (
     <div>
       {projectsData.map((p) => (

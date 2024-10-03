@@ -3,17 +3,22 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
   background-color: #edede4;
 }
 
 .language {
-  width: 40px;
-  height: 40px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.language img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .language:hover {
@@ -33,7 +38,6 @@ html {
 .wp {
   background-image: url(../images/wp.png);
 }
-
 .react {
   background-image: url(../images/react.png);
 }
@@ -49,7 +53,8 @@ html {
 
 /* Fades  */
 
-/* h1 {
+h1,
+h2 {
   animation: fadeInFromAbove 2s ease-in-out;
 }
 
@@ -62,7 +67,7 @@ html {
     opacity: 1;
     transform: translate(0);
   }
-} */
+}
 
 .fadeInR {
   animation: fadeInFromRight 2s ease-in-out;
