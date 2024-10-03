@@ -18,7 +18,7 @@ export const Skills = () => {
       </div>
 
       <div className="fadeInR order-1 md:order-2">
-        <p>My main skills and utilities used are</p>
+        <p>I like HTML</p>
         <p>My job description and languages we use</p>
         <p>Write code in JS, React, and PHP</p>
       </div>

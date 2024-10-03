@@ -1,8 +1,8 @@
 // Intro.jsx
 export const Intro = () => {
   return (
-    <div className="grid w-full gap-5 m-auto md:grid-cols-2">
-      <p className="w-full fadeInL">
+    <div className="grid w-full gap-5 md:grid-cols-2">
+      <p className="w-full fadeInL px-10">
         Im Morten: I work at: In my spare time I like to: Im Morten: Im Morten:
         I work at: In my spare time I like to: Im Morten: Im Morten: I work at:
         In my spare time I like to: Im Morten: Im Morten: I work at: In my spare

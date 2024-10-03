@@ -26,6 +26,15 @@ html {
   transform: scale(1.5);
 }
 
+.pImageCard {
+  transform: scale(0.95);
+  transition: transform 0.3s ease-in-out;
+}
+
+.pImageCard:hover {
+  transform: scale(1);
+}
+
 .html {
   background-image: url(../images/html.png);
 }
@@ -53,8 +62,7 @@ html {
 
 /* Fades  */
 
-h1,
-h2 {
+.fadeT {
   animation: fadeInFromAbove 2s ease-in-out;
 }
 

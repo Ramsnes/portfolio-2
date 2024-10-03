@@ -17,7 +17,7 @@ function App() {
       </section>
 
       {/* Projects */}
-      <section className="projects grid-rows-3 md:grid-cols-3 items-center md:border-b-2 md:border-black">
+      <section className="projects grid-rows-3 md:grid-cols-3 items-center">
         <h2 className="text-4xl text-center mb-5">My projects</h2>
         <div>
           <Projects className="md:max-w-full" />
@@ -25,7 +25,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <section className="footer">
+      <section>
         <Footer />
       </section>
     </main>

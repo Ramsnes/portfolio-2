@@ -12,13 +12,13 @@ export const ProjectCard = ({
   deployment,
 }) => {
   return (
-    <div className="mb-10">
-      <div className="flex flex-col md:flex-row-reverse  md:border md:border-black  ">
-        <div className="md:flex md:flex-col md:w-1/2 md:border md:border-black md:h-full">
+    <div className="mb-10 border-b-2 py-10 border-black">
+      <div className="flex flex-col md:flex-row-reverse   ">
+        <div className="md:flex md:flex-col md:w-1/2   md:h-full">
           <h2 className="text-2xl text-center mb-5">{title}</h2>
           <p className="m-5 md:m-0">{description}</p>
         </div>
-        <div className="md:w-1/2 md:border md:border-black flex items-center justify-center">
+        <div className="md:w-1/2 flex items-center justify-center">
           <ImageCard src={image} alt={alt} />
         </div>
       </div>

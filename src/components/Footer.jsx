@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
-    <div className="">
-      <h3 className="text-2xl">Contact me</h3>
+    <div>
+      <h3>Contact me</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
         doloremque aliquid vel, accusantium itaque corrupti vitae assumenda
