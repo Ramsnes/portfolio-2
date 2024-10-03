@@ -10,14 +10,14 @@ function App() {
   return (
     <main className="grid gap-8">
       {/* Introduction */}
-      <section className="intro grid grid-rows-3 w-full max-w-screen-lg mx-auto gap-5 text-left md:grid-cols-1 md:w-10/12 ">
+      <section className="intro grid grid-rows-[1fr,2fr,2fr]  w-full max-w-screen-lg mx-auto gap-5 text-left md:grid-cols-1 md:w-10/12">
         <Header />
         <Intro />
         <Skills />
       </section>
 
       {/* Projects */}
-      <section className="projects grid-rows-3 md:grid-cols-3 items-center">
+      <section className="projects grid-rows-3 md:grid-cols-3 items-center md:border-b-2 md:border-black">
         <h2 className="text-4xl text-center mb-5">My projects</h2>
         <div>
           <Projects className="md:max-w-full" />
