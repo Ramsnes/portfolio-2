@@ -16,7 +16,7 @@ export const ProjectCard = ({
       {/* Card */}
       <div className="flex flex-col md:flex-row-reverse mb-1">
         <div className="md:flex md:flex-col md:w-1/2 md:h-full">
-          <h2 className="text-2xl text-center mb-5">{title}</h2>
+          <h2 className="text-2xl text-center lg:p-5">{title}</h2>
           <p className="m-5 md:m-0">{description}</p>
         </div>
         <div className="md:w-1/2 flex items-center justify-center">

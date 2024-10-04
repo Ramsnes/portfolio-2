@@ -5,6 +5,9 @@
 html {
   background-color: #edede4;
 }
+p {
+  padding: 1.25em;
+}
 
 .language {
   display: flex;
@@ -35,35 +38,39 @@ html {
   transform: scale(1);
 }
 /* Intro */
-.intro-container {
+/* 
+.intro-container,
+.skills-container {
   background-color: #dfdfd2;
   position: relative;
   text-align: center;
-  padding: 1rem; /* Adjust as necessary */
-  border-radius: 0.5rem; /* Tailwind's rounded-lg */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-md */
-  transition: transform 0.2s ease; /* Tailwind's transition-transform */
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  transform: scale(0.95);
 }
 
-.intro-container:hover {
-  transform: scale(1.05); /* Hover scale effect */
+.intro-container:hover,
+.skills-container:hover {
+  transform: scale(1);
 }
 
-.intro-paragraph {
-  padding-left: 2.5rem; /* Tailwind's px-10 */
+.intro-paragraph,
+.skills-paragraph {
   opacity: 0;
-  transform: translateY(1rem); /* Translate effect */
+  transform: translateY(1rem);
   transition:
     opacity 0.7s ease-in-out,
-    transform 0.7s ease-in-out; /* Smooth transition */
-  display: none; /* Initially hide the paragraph */
+    transform 0.7s ease-in-out;
+  display: none;
 }
 
-.intro-container:hover .intro-paragraph {
-  display: block; /* Show the paragraph on hover */
+.intro-container:hover .intro-paragraph,
+.skills-container:hover .skills-paragraph {
+  display: block;
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 .html {
   background-image: url(../images/html.png);

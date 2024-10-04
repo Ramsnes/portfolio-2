@@ -17,7 +17,7 @@ function App() {
       </section>
 
       {/* Projects */}
-      <section className="projects grid-rows-3 md:grid-cols-3 items-center">
+      <section className="projects grid-rows-3 md:grid-cols-3 items-center md:w-10/12 mx-auto">
         <h2 className="text-4xl text-center mb-5">My projects</h2>
         <div>
           <Projects className="md:max-w-full" />

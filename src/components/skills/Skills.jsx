@@ -17,9 +17,9 @@ export const Skills = () => {
         ))}
       </div>
 
-      <div className="fadeInR order-1 md:order-2 grid  text-center ">
+      <div className="skills-container fadeInR order-1 md:order-2 grid  text-center ">
         <h2 className="text-2xl">My skills and utility experience</h2>
-        <p>
+        <p className="skills-paragraph text-left">
           After two years of focused learning, I`ve developed some decent skills
           in HTML and CSS. I`m continually improving in JavaScript, and React
           has become a favorite tool of mine for building efficient,
