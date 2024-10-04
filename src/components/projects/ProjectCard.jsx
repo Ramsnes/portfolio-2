@@ -25,7 +25,7 @@ export const ProjectCard = ({
       </div>
 
       {/* Links */}
-      <div className="flex space-x-4 justify-end mr-10">
+      <div className="flex space-x-4 justify-end mr-10 lg:place-content-start md:ml-6">
         <a
           href={repo}
           target="_blank"
