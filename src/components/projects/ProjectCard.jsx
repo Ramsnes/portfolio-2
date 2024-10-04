@@ -1,7 +1,7 @@
 // src/components/ProjectCard.jsx
 import { ImageCard } from "../ImageCard";
-import githubLogo from "../../../images/gh1.png";
-import netlifyLogo from "../../../images/live1.png";
+import githubLogo from "../../assets/gh1.png";
+import netlifyLogo from "../../assets/live1.png";
 
 export const ProjectCard = ({
   image,
@@ -13,8 +13,9 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className="mb-10 border-b-2 py-10 border-black">
-      <div className="flex flex-col md:flex-row-reverse   ">
-        <div className="md:flex md:flex-col md:w-1/2   md:h-full">
+      {/* Card */}
+      <div className="flex flex-col md:flex-row-reverse mb-1">
+        <div className="md:flex md:flex-col md:w-1/2 md:h-full">
           <h2 className="text-2xl text-center mb-5">{title}</h2>
           <p className="m-5 md:m-0">{description}</p>
         </div>
@@ -39,10 +40,13 @@ export const ProjectCard = ({
           rel="noopener noreferrer"
           className="flex items-center justify-center"
         >
-          <img src={netlifyLogo} alt="Netlify Logo" className="w-20 h-auto" />
+          <img
+            src={netlifyLogo}
+            alt="Netlify Logo"
+            className="w-14 md:w-16 h-auto"
+          />
         </a>
       </div>
-      {/* Links end */}
     </div>
   );
 };

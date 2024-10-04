@@ -1,13 +1,13 @@
 // src\components\skills\skillsData.js
 
-import htmlIcon from "../../../images/html.png";
-import cssIcon from "../../../images/css.png";
-import jsIcon from "../../../images/js.png";
-import wpIcon from "../../../images/wp.png";
-import reactIcon from "../../../images/react.png";
-import tailwindIcon from "../../../images/tw.png";
-import bootstrapIcon from "../../../images/bs.png";
-import figmaIcon from "../../../images/figma.jpeg";
+import htmlIcon from "../../assets/html.png";
+import cssIcon from "../../assets/css.png";
+import jsIcon from "../../assets/js.png";
+import wpIcon from "../../assets/wp.png";
+import reactIcon from "../../assets/react.png";
+import tailwindIcon from "../../assets/tw.png";
+import bootstrapIcon from "../../assets/bs.png";
+import figmaIcon from "../../assets/figma.jpeg";
 
 export const skillsData = [
   { id: 1, name: "HTML", icon: htmlIcon, alt: "HTML" },

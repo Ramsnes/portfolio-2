@@ -1,4 +1,6 @@
 // Intro.jsx
+import mortenRamfjord from "../assets/pfb-cropped.jpg";
+
 export const Intro = () => {
   return (
     <div className="grid w-full gap-5 md:grid-cols-2">
@@ -13,7 +15,7 @@ export const Intro = () => {
       </p>
       <img
         className="fadeInR w-full col-span-1 md:rounded-s "
-        src="../../images/pfb-cropped.jpg"
+        src={mortenRamfjord}
         alt="Morten Ramfjord profile picture"
       />
     </div>
