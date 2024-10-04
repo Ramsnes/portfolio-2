@@ -20,12 +20,12 @@ export const Skills = () => {
       <div className="fadeInR order-1 md:order-2 grid  text-center ">
         <h2 className="text-2xl">My skills and utility experience</h2>
         <p>
-          After two years of focused learning, I've developed some decent skills
-          in HTML and CSS. I’m continually improving in JavaScript, and React
+          After two years of focused learning, I`ve developed some decent skills
+          in HTML and CSS. I`m continually improving in JavaScript, and React
           has become a favorite tool of mine for building efficient,
-          component-based apps. I have some experience in Wordpress, and I'm
+          component-based apps. I have some experience in Wordpress, and I`m
           currently learning Tailwind CSS, which I prefer over Bootstrap for its
-          flexibility. While design isn't my main focus, I’m comfortable using
+          flexibility. While design isn`t my main focus, I`m comfortable using
           Figma to translate ideas into functional layouts.
         </p>
       </div>

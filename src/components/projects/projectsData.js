@@ -12,7 +12,7 @@ export const projectsData = [
     description:
       "This project focuses on building a front-end for Holidaze, a new accommodation booking site, utilizing React and Material UI to deliver a modern user experience. The application consists of both customer and admin interfaces, allowing users to view, search, and book venues, while venue managers can register, manage their listings, and access booking details. The project adheres to technical requirements, including the use of approved frameworks, and features links to project management tools, design prototypes, and hosted demos. This work highlights my development capabilities and emphasis on creating an intuitive user experience",
     repo: "https://github.com/Ramsnes/semester_project_2_resit",
-    deployment: "https://semester-2-resit.netlify.app/",
+    deployment: "https://holidazemorten.netlify.app/",
   },
   {
     id: 2,
@@ -32,6 +32,6 @@ export const projectsData = [
     description:
       "This project focuses on developing a front-end for an auction website that enables users to list items for bidding and participate in auctions. Utilizing JavaScript for functionality and SASS for styling, the application allows registered users to manage their listings and bids while permitting non-registered users to browse available items. New users begin with 1000 credits, which can be earned through selling items or used for bidding. The project complies with specified technical restrictions and includes links to essential project management tools, design prototypes, and a live demo, demonstrating my front-end development capabilities.",
     repo: "https://github.com/Ramsnes/semester_project_2_resit",
-    deployment: "https://app.netlify.com/sites/semester-2-resit/overview",
+    deployment: "https://semester-2-resit.netlify.app/",
   },
 ];

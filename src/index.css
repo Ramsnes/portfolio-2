@@ -34,6 +34,36 @@ html {
 .pImageCard:hover {
   transform: scale(1);
 }
+/* Intro */
+.intro-container {
+  background-color: #dfdfd2;
+  position: relative;
+  text-align: center;
+  padding: 1rem; /* Adjust as necessary */
+  border-radius: 0.5rem; /* Tailwind's rounded-lg */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-md */
+  transition: transform 0.2s ease; /* Tailwind's transition-transform */
+}
+
+.intro-container:hover {
+  transform: scale(1.05); /* Hover scale effect */
+}
+
+.intro-paragraph {
+  padding-left: 2.5rem; /* Tailwind's px-10 */
+  opacity: 0;
+  transform: translateY(1rem); /* Translate effect */
+  transition:
+    opacity 0.7s ease-in-out,
+    transform 0.7s ease-in-out; /* Smooth transition */
+  display: none; /* Initially hide the paragraph */
+}
+
+.intro-container:hover .intro-paragraph {
+  display: block; /* Show the paragraph on hover */
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .html {
   background-image: url(../images/html.png);
