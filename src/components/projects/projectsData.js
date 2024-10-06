@@ -11,7 +11,7 @@ export const projectsData = [
     alt: "Project exam 2 screenshot",
     description:
       "This project focuses on building a front-end for Holidaze, a new accommodation booking site, utilizing React and Material UI to deliver a modern user experience. The application consists of both customer and admin interfaces, allowing users to view, search, and book venues, while venue managers can register, manage their listings, and access booking details. The project adheres to technical requirements, including the use of approved frameworks, and features links to project management tools, design prototypes, and hosted demos. This work highlights my development capabilities and emphasis on creating an intuitive user experience",
-    repo: "https://github.com/Ramsnes/semester_project_2_resit",
+    repo: "https://github.com/Ramsnes/project-exam-2",
     deployment: "https://holidazemorten.netlify.app/",
   },
   {
