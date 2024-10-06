@@ -7,7 +7,7 @@ import wpIcon from "../../assets/wp.png";
 import reactIcon from "../../assets/react.png";
 import tailwindIcon from "../../assets/tw.png";
 import bootstrapIcon from "../../assets/bs.png";
-import figmaIcon from "../../assets/figma.jpeg";
+import figmaIcon from "../../assets/figma2.png";
 
 export const skillsData = [
   { id: 1, name: "HTML", icon: htmlIcon, alt: "HTML" },
