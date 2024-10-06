@@ -7,13 +7,12 @@ export const Intro = () => {
       <div className="intro-container group flex flex-col justify-start md:text-left md: md:h-5/6 lg:h-5/6 order-2 md:order-1 gap-5">
         <h2 className="text-2xl p-5">About me</h2>
         <p className="intro-paragraph fadeInL">
-          I’m a front-end developer with a passion for building efficient,
-          dynamic web applications. After two years at Noroff University, I’ve
-          developed strong skills in HTML, CSS, and JavaScript. My favorite
-          tools are React and Tailwind CSS, which I use to create flexible,
-          component-based apps. I currently work at digiPublishing and continue
-          to expand my skills, always looking for new challenges and
-          opportunities to grow.
+          I’m a front-end developer passionate about building dynamic and
+          efficient web applications. After completing two years at Noroff
+          University, I continue to develop my expertise in HTML, CSS,
+          JavaScript, and various libraries and frameworks. Currently, I work at
+          digiPublishing in Trondheim, where I am kick-starting my career, eager
+          to embrace new challenges and opportunities to grow as a developer.
         </p>
       </div>
       <img
